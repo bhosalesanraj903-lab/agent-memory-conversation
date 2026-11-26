@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+db/orders.db
+Usecase.txt
+.DS_Store

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <label for="user-select">Customer</label>
+      <select id="user-select"></select>
+      <button id="new-chat" class="primary">+ New chat</button>
+    </div>
+    <div class="sidebar-label">Recent chats</div>
+    <ul id="session-list"></ul>
+  </aside>
+
+  <main class="chat">
+    <header id="chat-title">New chat</header>
+    <div id="messages"></div>
+    <form id="chat-form">
+      <input id="message-input" type="text" placeholder="Ask about your orders or shipments..." autocomplete="off">
+      <button type="submit" id="send-btn" class="primary">Send</button>
+    </form>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

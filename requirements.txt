@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+litellm
+mcp
+redis
+python-dotenv
+pydantic
